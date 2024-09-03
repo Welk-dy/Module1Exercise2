@@ -25,16 +25,16 @@ public class Main {
             System.out.println(formattedNumber + " is even.");
         }
 
-        System.out.print("Enter the main string: ");
+        System.out.print("Enter the main string = ");
         String mainString = scanner.nextLine();
 
-        System.out.print("Enter the search string: ");
+        System.out.print("Enter the search string = ");
         String searchString = scanner.nextLine();
 
         String result = ChangeString.removeFirstOccurrence(mainString, searchString);
 
-        System.out.println("Original String: " + mainString);
-        System.out.println("Search String: " + searchString);
-        System.out.println("Result String: " + result);
+        System.out.println("Main String = " + mainString);
+        System.out.println("Search String = " + searchString);
+        System.out.println("Result String = " + result);
     }
 }
