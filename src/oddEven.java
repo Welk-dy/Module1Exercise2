@@ -1,7 +1,7 @@
 import java.text.NumberFormat;
 import java.util.Locale;
 
-public class OddEven {
+public class oddEven {
 
     public static boolean isOdd(int n) {
         return n % 2 != 0;
